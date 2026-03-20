@@ -72,6 +72,68 @@ header .container .navbar button:hover {
   margin-top: 30px;
 }
 
+section .container .section_cards {
+  display: flex;
+  align-items: center;
+}
+section .container .section_cards .card_text {
+  max-width: 41%;
+}
+section .container .section_cards .card_text h1 {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 84px;
+  letter-spacing: 2%;
+  color: #2563EB;
+}
+section .container .section_cards .card_text p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #E5E7EB;
+  padding: 30px 0;
+}
+section .container .section_cards .card_text .btn {
+  width: 30%;
+  height: 40px;
+  background: #2563EB;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #F9FAFB;
+  transition: all 1s ease-in-out;
+}
+section .container .section_cards .card_text .btn:hover {
+  border: 3px solid #2563EB;
+  background: none;
+  transform: scale(1.1);
+}
+section .container .section_cards .card_text button {
+  width: 30%;
+  height: 40px;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #F9FAFB;
+  transition: all 1s ease-in-out;
+}
+section .container .section_cards .card_text button:hover {
+  border: 3px solid #2563EB;
+  background: #2563EB;
+  transform: scale(0.9);
+}
+section .container .section_cards .card_rasm {
+  max-width: 50%;
+}
+
 body {
   background: rgb(38, 38, 38);
 }/*# sourceMappingURL=main.css.map */
