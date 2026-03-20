@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 30;
+}/*# sourceMappingURL=main.css.map */
